@@ -20,6 +20,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+grid-column: 2 / 3 ;
+grid-row: 1 / 2;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
 }
 
 .menu-btn {
@@ -34,9 +45,24 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 300ms ease;
+    transform: translateX(-100%);
 }
 
-.item-show {
+.menu-show {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 300ms ease;
+    transform: translateX(0%);
+}
+
+.item {
     border-bottom: solid 1px black;
     width: 70%;
 }
