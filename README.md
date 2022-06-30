@@ -1,2 +1,2 @@
 # odin-menu
-Building a sliding down menu for The Odin Project
+Building a sliding menu for The Odin Project
